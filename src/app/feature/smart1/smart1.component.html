@@ -1,0 +1,13 @@
+<!-- Technique 1 -->
+<ul>
+    <li *ngFor="let cupcake of cupcakeList">
+        <ui-dumb1 [cupcake]="cupcake"></ui-dumb1>
+    </li>
+</ul>
+
+<!-- Technique 2 -->
+<ul *ngIf="cupcakeList$ | async as cupcakeList">
+    <li *ngFor="let cupcake of cupcakeList">
+        <ui-dumb1 [cupcake]="cupcake"></ui-dumb1>
+    </li>
+</ul>

@@ -1,0 +1,34 @@
+{
+  "cupcakes": [
+    {
+      "id": 1,
+      "name": "Johann",
+      "price": 2.5
+    },
+    {
+      "id": 2,
+      "name": "Maxime",
+      "price": 2.5
+    },
+    {
+      "id": 3,
+      "name": "Lorraine",
+      "price": 2.5
+    },
+    {
+      "name": "my new cupcake",
+      "price": 3,
+      "id": 4
+    },
+    {
+      "name": "my new cupcake",
+      "price": 3,
+      "id": 5
+    },
+    {
+      "name": "my new cupcake",
+      "price": 3,
+      "id": 6
+    }
+  ]
+}
